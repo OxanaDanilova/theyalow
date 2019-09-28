@@ -1,0 +1,463 @@
+@font-face{
+
+  font-family: 'SegoeWP-Light';
+
+  src: url('../theyalow/assets/fonts/segoe-wp-light.TTF');
+}
+
+@font-face{
+
+  font-family: 'LucidaSans-Italic';
+
+  src: url('../theyalow/assets/fonts/LSANSI.TTF');
+}
+
+@font-face{
+
+  font-family: 'SegoeUI-Bold';
+
+  src: url('../theyalow/assets/fonts/Segoe-UIBold.ttf');
+}
+
+@font-face{
+
+  font-family: 'SegoeUI';
+
+  src: url('../theyalow/assets/fonts/Segoe-UI.ttf');
+}
+
+@font-face{
+
+  font-family: 'SegoeWP';
+
+  src: url('../theyalow/assets/fonts/SegoeWP.ttf');
+}
+
+@font-face{
+
+  font-family: 'Asap-Regular';
+
+  src: url('../theyalow/assets/fonts/Asap-Regular.otf');
+}
+
+@font-face{
+
+  font-family: 'PTSans-Regular';
+
+  src: url('../theyalow/assets/fonts/PTS55F.ttf');
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  width: 1300px;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 70, 62);
+}
+
+.top {
+  height: 565px;
+  width: 1300px;
+  background-image: url(../theyalow/assets/images/headerbackground.png);
+  background-size: cover;
+}
+
+.wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  background-color: red;
+
+}
+
+.wrapper-logo {
+  display: flex;
+  margin-top: 26px;
+  margin-left: 140px;
+}
+
+.text-logo {
+  font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 41.04912px;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  width: 453px;
+  height: 41px;
+  margin-top: 71px;
+  margin-right: 140px;
+  background-color: #f5c506;
+}
+
+.wrapper-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 41px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #dcb105;
+  list-style: none;
+  font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 17.04912px;
+  color: rgba(155, 125, 8, 255);
+  text-transform: uppercase;
+}
+
+.wrapper-slider {
+  display: flex;
+  justify-content: space-around;
+  height: 435px;
+  margin-top: 36px;
+}
+
+.wrapper-arror-left, .wrapper-arror-right {
+  width: 32px;
+  height: 57px;
+  background-color: #c49e0c;
+}
+
+.wrapper-arror-left {
+  margin-left: -40px;
+  margin-top: 170px;
+}
+.wrapper-arror-right {
+  margin-right: -40px;
+  margin-top: 170px;
+}
+
+.wrapper-video {
+  width: 549px;
+  height: 327px;
+  background-image: url(./assets/images/videoimage.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  width: 67px;
+  height: 67px;
+  background-color: #e1d041;
+  border-radius: 50%;
+  margin-top: 131px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 17px 0 17px 19px;
+  border-color: transparent transparent transparent #f5f4f2;
+}
+
+.wrapper-slogan {
+  width: 392px;
+  height: 121px;
+  margin-top: 128px;
+  background-color: orange;
+}
+
+.wrapper-slogan p {
+  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 63.04912px;
+  color: rgba(245, 197, 6, 255);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper-slogan p + p {
+  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 63.04912px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service {
+  background-color: #f7f7f7;
+  background-image: url(./assets/images/service-background.png);
+
+}
+
+.wrapper-service {
+  height: 212px;
+  display: flex;
+  list-style: none;
+  margin-left: 140px;
+  border-color: #d4d4d4;
+
+}
+
+.wrapper-first-item {
+  width: 341px;
+  border: 1px solid #d4d4d4;
+}
+
+.download-pic {
+  margin-top: 61px;
+  margin-left: 110px;
+}
+
+.blat {
+  margin-top: 37px;
+  margin-left: 136px;
+}
+
+.plain {
+  margin-top: 54px;
+  margin-left: 119px;
+}
+
+.wrapper-second-item {
+  width: 339px;
+  border: 1px solid #d4d4d4;
+}
+
+.wrapper-third-item {
+  width: 341px;
+  border: 1px solid #d4d4d4;
+}
+
+.first-service-name, .second-service-name, .third-service-name {
+  font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 27.04912px;
+  color: rgba(0, 0, 0, 255);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+
+.wrapper-middle {
+  height: 509px;
+  background-image: url(./assets/images/video-descrip-background.png);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.middle-title {
+  height: 109px;
+
+
+}
+
+.wrapper-title {
+  margin-top: 42px;
+  margin-left: 143px;
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 37.04912px;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.video-description {
+  height: 233px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.wrapper-video-text {
+  display: flex;
+  margin-left: 139px;
+
+}
+
+.video-text {
+  width: 341px;
+  background-color: #ec9e03;
+
+}
+.wrap-video-text {
+  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 29.04912px;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+  width: 272px;
+  height: 174px;
+  margin-top: 25px;
+  margin-left: 31px;
+
+}
+
+.plus-first {
+  width: 11px;
+  height: 11px;
+  margin-top: 13px;
+  margin-left: 309px;
+
+
+}
+
+.video-item {
+  width: 315px;
+  background-image: url(./assets/images/monkey.png);
+
+
+}
+
+.circle-little {
+  width: 61px;
+  height: 61px;
+  background-color: #e1d041;
+  border-radius: 50%;
+  margin-top: 93px;
+  margin-left: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangle-little {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 15px 17px;
+  border-color: transparent transparent transparent #f5f4f2;
+}
+
+.twitter {
+  width: 329px;
+  background-color: #ec9e03;
+  display: flex;
+  flex-direction: column;
+  margin-right: 143px;
+
+}
+
+.number {
+  width: 24px;
+  height: 18px;
+  margin-top: 20px;
+  margin-left: 286px;
+  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 25.04912px;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+
+}
+
+.bird {
+  width: 163px;
+  height: 133px;
+  background-image: url(./assets/images/twitter.svg);
+  margin-top: 21px;
+  margin-left: 83px;
+}
+
+.plus {
+  width: 11px;
+  height: 11px;
+  margin-top: 17px;
+  margin-left: 309px;
+}
+
+.video-date {
+  background-color: #ddb101;
+  width: 113px;
+  height: 86px;
+  margin-left: 139px;
+
+}
+
+.date-number {
+  font-family: SegoeUI-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 51.04912px;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+  width: 55px;
+  height: 38px;
+  margin-left: 31px;
+}
+
+.month {
+  font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 21.04912px;
+  color: rgba(178, 101, 41, 255);
+  text-align: left;
+  width: 55px;
+  height: 15px;
+  margin-top: 9px;
+  margin-left: 32px;
+
+}
+
+.video-scroller {
+  width: 896px;
+  height: 15px;
+  margin-left: 213px;
+  margin-top: 37px;
+
+}
+
+.scroll-little {
+  position: relative;
+  margin-left: 247px;
+  top: -22px;
+}
+
+.device {
+  height: 499px;
+  background-image: url(./assets/images/device-bg.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.device-title {
+  margin-top: 48px;
+  margin-left: 353px;
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 43.04912px;
+  color: rgba(245, 197, 6, 255);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.device-wrapper {
+  background-color: chocolate;
+}
+
+.dev-discrip-list {
+  list-style: circle;
+}
+.discr-item-first, .discr-item-third {
+  font-family: PTSans-Regular, OpenSans, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 22px;
+  color: rgba(169, 169, 167, 255);
+  text-align: left;
+
+}
+
+.discr-item-second, .discr-item-forth {
+  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 22px;
+  color: rgba(169, 169, 167, 255);
+  text-align: left;
+
+}
