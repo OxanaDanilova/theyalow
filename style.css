@@ -89,7 +89,6 @@ body {
   height: 100vw;
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(31, 70, 62); */
 }
 
 .top {
@@ -453,8 +452,6 @@ h1 {
  .video-scroll::-ms-fill-lower {
   -webkit-appearance: none;
   background-color: #f5c506;
-/*   height: 12px;
-  width: 404px; */
 
 }
 
@@ -487,8 +484,6 @@ h1 {
   background: #f5c506;
   border-radius: 5px;
   }
-
-
 
 .volume {
   margin-top: 5px;
@@ -580,7 +575,6 @@ h1 {
 .middle-title {
   height: 110px;
 
-
 }
 
 .wrapper-title {
@@ -598,7 +592,6 @@ h1 {
   height: 233px;
   display: flex;
   justify-content: space-between;
-
 
 }
 
@@ -647,7 +640,6 @@ h1 {
 .plus-first:hover , .plus:hover {
   background-color: #c8aa0cd1;
   cursor: pointer;
-
 
 }
 
@@ -704,7 +696,6 @@ h1 {
 .bird {
   width: 175px;
   height: 133px;
- /*  background-image: url(./assets/images/twitter.svg); */
   margin-top: 29px;
   margin-left: 77px;
 }
@@ -772,18 +763,6 @@ h1 {
   margin-bottom: 22px;
 }
 
-/*  .video-scroller::-ms-fill-upper {
-  width: 896px;
-  height: 15px;
-  margin-left: 213px;
-  margin-top: 44px;
-  color: #fae282cf;
-  border-radius: 5px;
-  overflow: hidden;
-  outline: none;
-  margin-bottom: 22px;
-} */
-
 .video-scroller::-webkit-slider-thumb {
   -webkit-appearance: none;
   cursor: pointer;
@@ -813,11 +792,6 @@ h1 {
   border-radius: 5px;
   background: #ec9e03;
  }
-
-
-
-
-
 
 .device {
   height: 499px;
@@ -978,8 +952,6 @@ h1 {
 
 }
 
-
-
 footer {
   height: 64px;
   background-color: #4c4c4c;
@@ -1062,8 +1034,6 @@ footer {
     margin: 0;
     box-shadow: none;
   }
-
-
 
   .text-logo {
     font-size: 19px;
