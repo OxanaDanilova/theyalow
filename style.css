@@ -89,13 +89,13 @@ body {
   height: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: rgb(31, 70, 62);
+  /* background-color: rgb(31, 70, 62); */
 }
 
 .top {
   height: 565px;
   width: 1300px;
-  background-image: url(../theyalow/assets/images/headerbackground.png);
+  background-image: url(../theyalow/assets/images/headerbg.png);
   background-size: cover;
 }
 
@@ -570,7 +570,7 @@ h1 {
 
 .wrapper-middle {
   height: 509px;
-  background-image: url(./assets/images/video-descrip-background.png);
+  background-image: url(./assets/images/video-descrip-bg.png);
   display: flex;
   flex-direction: column;
   box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.75);
@@ -662,7 +662,7 @@ h1 {
 .circle-little {
   width: 61px;
   height: 61px;
-  background-color: #c8aa0cd1;
+  background-color: rgba(200, 170, 12, 0.8196078431372549);
   border-radius: 50%;
   margin-top: 93px;
   margin-left: 130px;
@@ -1453,10 +1453,5 @@ footer {
     font-size: 17px;
     margin-top: 12px;
     margin-left: -33px;
-
   }
-
-
-
-
-}
+  }
