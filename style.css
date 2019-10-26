@@ -5,15 +5,6 @@
   src: url('../theyalow/assets/fonts/segoe-wp-light.TTF');
 }
 
-@font-face{
-
-  font-family: 'SegoeUI-Light';
-
-  src: url('../theyalow/assets/fonts/Segoe-UI.ttf');
-}
-
-
-
 
 @font-face{
 
@@ -364,7 +355,7 @@ h1 {
   margin-top: -55px;
   margin-left: -96px;
   font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 63.04912px;
+  font-size: 63px;
   color: rgba(245, 197, 6, 255);
   text-align: center;
   text-transform: uppercase;
@@ -373,12 +364,13 @@ h1 {
 
 .wrapper-slogan p + p {
   margin-top: -4px;
-  margin-left: -85px;
+  margin-left: -77px;
   font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 63.04912px;
+  font-size: 63px;
   color: white;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.4px;
 }
 
 .lit-triangle {
@@ -424,6 +416,7 @@ h1 {
   margin-left: -3px;
   border-radius: 5px;
   overflow: hidden;
+  outline: none;
 }
 
 .video-scroll::-webkit-slider-runnable-track {
@@ -500,9 +493,10 @@ h1 {
 }
 
 .first-service-name, .second-service-name, .third-service-name {
-  font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 27.04912px;
-  color: #5b5b5b;
+  font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 27px;
+  font-weight: 300;
+  color: #000000;;
   text-align: center;
   text-transform: uppercase;
   margin-top: 4px;
@@ -543,6 +537,7 @@ h1 {
   color: rgba(255, 255, 255, 255);
   text-align: left;
   text-transform: uppercase;
+  letter-spacing: 0.42px;
 }
 
 .video-description {
@@ -566,6 +561,7 @@ h1 {
 }
 .wrap-video-text {
   font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+  letter-spacing: 0.2px;
   font-size: 29.04912px;
   color: rgba(255, 255, 255, 255);
   text-align: left;
@@ -581,6 +577,11 @@ h1 {
   margin-top: -235px;
 }
 
+.play-sign-little:hover {
+  cursor: pointer;
+
+}
+
 .plus-first {
   width: 16px;
   height: 16px;
@@ -590,7 +591,7 @@ h1 {
 }
 
 .plus-first:hover , .plus:hover {
-  background-color: red;
+  background-color: #c8aa0cd1;
   cursor: pointer;
 
 
@@ -604,7 +605,7 @@ h1 {
 .circle-little {
   width: 61px;
   height: 61px;
-  background-color: #e1d041;
+  background-color: #c8aa0cd1;
   border-radius: 50%;
   margin-top: 93px;
   margin-left: 130px;
@@ -700,17 +701,24 @@ h1 {
 }
 
 .video-scroller {
+  -webkit-appearance: none;
   width: 896px;
   height: 15px;
-  margin-left: 211px;
-  margin-top: 42px;
-
+  margin-left: 213px;
+  margin-top: 44px;
+  background-color: #fae282cf;
+  border-radius: 5px;
+  overflow: hidden;
+  outline: none;
 }
 
-.scroll-little {
-  position: relative;
-  margin-left: 247px;
-  top: -22px;
+.video-scroller::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 197px;
+  height: 15px;
+  border-radius: 5px;
+  background: #ec9e03;
 }
 
 .device {
@@ -728,6 +736,7 @@ h1 {
   color: rgba(245, 197, 6, 255);
   text-align: left;
   text-transform: uppercase;
+  letter-spacing: 0.4px;
 }
 
 .device-wrapper {
@@ -817,7 +826,7 @@ h1 {
 }
 
 .discr-item-third {
-  margin-top: 28px;
+  margin-top: 30px;
 }
 
 .discr-item-third div {
@@ -851,19 +860,16 @@ h1 {
 
 }
 
-.discr-item-second p {
-  margin-top: 7px;
-  word-spacing: 1.9px;
-  letter-spacing: 1.29px;
+.discr-item-second p, .discr-item-forth p {
+  margin-top: 5px;
+  letter-spacing: 0.2px;
   font-weight: 400;
+  line-height: 27px;
 
 }
 
-.discr-item-forth p {
-  margin-top: 10px;
-  word-spacing: 1.9px;
-  letter-spacing: 1.29px;
-  font-weight: 400;
+ .discr-item-forth p {
+     margin-top: 8px;
 
 }
 
@@ -964,6 +970,7 @@ footer {
     font-size: 19px;
     margin-left: 7px;
     margin-top: 22px;
+    letter-spacing: 0.5px;
 
   }
 
@@ -1041,8 +1048,8 @@ footer {
   }
 
   .video-scroll {
-    width: 373px;
-    margin-left: 26px;
+    width: 403px;
+    margin-left: -3px;
   }
 
   .play-panel {
@@ -1061,6 +1068,18 @@ footer {
     margin-top: 33px;
     margin-left: 44px;
 
+  }
+
+  .service::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    margin-top: -4px;
+    background-color: #f7f7f7;
+    background-image: url(./assets/images/service-background.png);
+    opacity: 0.7;
+    box-shadow: 0px -4px 0 1px #f7f7f79e;
   }
 
   .first-service-name, .second-service-name, .third-service-name {
@@ -1218,6 +1237,7 @@ footer {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 1px solid #eaa927;
+    outline: none;
   }
 
   .button-submit {
@@ -1232,6 +1252,8 @@ footer {
     border-bottom-right-radius: 10px;
     border: 1px solid #eaa927;
     margin-top: -3px;
+    outline: none;
+    cursor: pointer;
 
   }
 
