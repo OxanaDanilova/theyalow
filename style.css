@@ -2,7 +2,7 @@
 
   font-family: 'SegoeWP-Light';
 
-  src: url('../theyalow/assets/fonts/segoe-wp-light.TTF');
+  src: url('./assets/fonts/segoe-wp-light.TTF');
 }
 
 
@@ -10,7 +10,7 @@
 
   font-family: 'LucidaSans-Italic';
 
-  src: url('../theyalow/assets/fonts/LSANSI.TTF');
+  src: url('./assets/fonts/LSANSI.TTF');
 }
 
 
@@ -18,7 +18,7 @@
 
   font-family: 'OpenSans';
 
-  src: url('../theyalow/assets/fonts/OpenSans.ttf');
+  src: url('./assets/fonts/OpenSans.ttf');
 }
 
 
@@ -28,54 +28,50 @@
 
   font-family: 'SegoeUI-Bold';
 
-  src: url('../theyalow/assets/fonts/Segoe-UIBold.ttf');
+  src: url('./assets/fonts/Segoe-UIBold.ttf');
 }
 
 @font-face{
 
   font-family: 'SegoeUI';
 
-  src: url('../theyalow/assets/fonts/Segoe-UI.ttf');
+  src: url('./assets/fonts/Segoe-UI.ttf');
 }
 
 @font-face{
 
   font-family: 'SegoeWP';
 
-  src: url('../theyalow/assets/fonts/SegoeWP.ttf');
+  src: url('./assets/fonts/SegoeWP.ttf');
 }
 
 @font-face{
 
   font-family: 'Asap-Regular';
 
-  src: url('../theyalow/assets/fonts/Asap-Regular.otf');
+  src: url('./assets/fonts/Asap-Regular.otf');
 }
 
 @font-face{
 
   font-family: 'PTSans-Regular';
 
-  src: url('../theyalow/assets/fonts/PTS55F.ttf');
+  src: url('./assets/fonts/PTS55F.ttf');
 }
 
 @font-face{
 
   font-family: 'PTSans-NarrowBold';
 
-  src: url('../theyalow/assets/fonts/PTN77F.ttf');
+  src: url('./assets/fonts/PTN77F.ttf');
 }
 
 @font-face{
 
   font-family: 'ArialMT';
 
-  src: url('../theyalow/assets/fonts/ARIALMT.ttf');
+  src: url('./assets/fonts/ARIALMT.ttf');
   }
-
-
-
-
 
 
 * {
@@ -94,7 +90,7 @@ body {
 .top {
   height: 565px;
   width: 1300px;
-  background-image: url(../theyalow/assets/images/headerbg.png);
+  background-image: url(./assets/images/headerbg.png);
   background-size: cover;
 }
 
