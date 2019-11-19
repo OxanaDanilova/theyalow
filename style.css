@@ -129,18 +129,16 @@ h1 {
 }
 
 .h-logo-2 {
-  margin-left: -84px;
-  margin-top: -1px;
+  margin: 1px 0 0 -84px;
 }
 
 .text-logo {
-  font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 41.04912px;
+  font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 41px;
   color: rgba(255, 255, 255, 255);
   text-align: center;
   text-transform: uppercase;
-  margin-left: 5px;
-  margin-top: 25px;
+  margin: 25px 0 0 5px;
 }
 
 .wrapper-3menu {
@@ -155,8 +153,7 @@ h1 {
 }
 
 .front {
-  margin-top: 71px;
-  margin-right: 140px;
+  margin: 71px 140px 0 0;
   z-index: 1000;
   box-shadow: -3px -3px 0 1px rgba(245, 197, 6, 0.5), -6px -6px 0 1px rgba(245, 197, 6, 0.4);
 }
@@ -164,87 +161,91 @@ h1 {
 
 
 .middle {
-  margin-top: -46px;
-  margin-left: -5px;
+  margin: -46px 0 0 -5px;
   opacity: 0.5;
   z-index: 500;
 
 }
 
 .last {
-  margin-top: 64px;
-  margin-left: -10px;
+  margin: 64px 0 0 -10px;
   opacity: 0.5;
   z-index: 100;
 
 }
 
-.wrapper-menu {
+
+.nav-menu ul {
   display: flex;
   justify-content: space-around;
+
 }
 
-.menu-item {
+
+.nav-menu ul li {
   display: flex;
   align-items: center;
   height: 41px;
   list-style: none;
-  font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 17.04912px;
+  font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 17px;
   color: rgba(155, 125, 8, 255);
   text-transform: uppercase;
 }
 
- .first::after {
-  content: "";
-  width: 0px;
-  height: 40px;
-  border: 0.8px solid #dcb105;
-  position: absolute;
-  margin-left: 153px;
+  .nav-menu ul li:first-child::after {
+    content: "";
+    width: 0px;
+    height: 40px;
+    border: 0.8px solid #dcb105;
+    position: absolute;
+    margin-left: 153px;
 
-  }
+    }
 
-.first svg {
+
+.nav-menu ul li:first-child svg {
   margin-left: 18px;
-
 }
 
-.first div {
+.nav-menu ul li:first-child div {
   margin-left: 9px;
 
 }
 
-.second svg {
-  margin-right: 9px;
+.nav-menu ul li:nth-child(2) svg {
 
+  margin-right: 9px;
 }
 
-.second div {
+
+.nav-menu ul li:nth-child(2) div {
   margin-right: -2px;
 
 }
-.second::after {
-  content: "";
-  width: 0px;
-  height: 40px;
-  border: 0.8px solid #dcb105;
-  position: absolute;
-  margin-left: 120px;
+
+.nav-menu ul li:nth-child(2)::after {
+    content: "";
+    width: 0px;
+    height: 40px;
+    border: 0.8px solid #dcb105;
+    position: absolute;
+    margin-left: 120px;
 
   }
 
-.third svg {
+
+.nav-menu ul li:nth-child(3) svg {
   margin-right: 6px;
 
 }
 
-.third div {
+.nav-menu ul li:nth-child(3) div {
   margin-right: 4px;
-
 }
 
-.menu-item:hover {
+
+.nav-menu ul li:hover {
   cursor: pointer;
   color: rgba(255, 255, 255, 255);
 
@@ -280,9 +281,7 @@ h1 {
 }
 
 .wrapper-arror-left svg, .wrapper-arror-right svg {
-  margin-top: 17px;
-  margin-left: 8px;
-
+  margin: 17px 0 0 8px;
 }
 
 .wrapper-arror-left svg, .wrapper-arror-right svg:hover {
@@ -301,8 +300,7 @@ h1 {
 .play-sign {
   z-index: 100;
   position: relative;
-  margin-top: -196px;
-  margin-left: 271px;
+  margin: -196px 0 0 271px;
 
 }
 
@@ -315,8 +313,7 @@ h1 {
   object-position: -56px 2px;
   display: flex;
   flex-direction: column;
-  margin-left: 31px;
-  margin-top: 1px;
+  margin: 1px 0 0 31px;
   width: 549px;
   height: 327px;
 }
@@ -354,7 +351,7 @@ h1 {
 .wrapper-slogan > p {
   margin-top: -55px;
   margin-left: -96px;
-  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular, serif;
   font-size: 63px;
   color: rgba(245, 197, 6, 255);
   text-align: center;
@@ -363,9 +360,8 @@ h1 {
 }
 
 .wrapper-slogan p + p {
-  margin-top: -4px;
-  margin-left: -77px;
-  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
+  margin: -4px 0 0 -77px;
+  font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular, serif;
   font-size: 63px;
   color: white;
   text-align: center;
@@ -374,8 +370,7 @@ h1 {
 }
 
 .lit-triangle {
-  margin-top: 4px;
-  margin-left: 10px;
+  margin: 4px 0 0 10px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -386,8 +381,7 @@ h1 {
 
 .play-panel {
   display: flex;
-  margin-top: 81px;
-  margin-left: 10px;
+  margin: 81px 0 0 10px;
   z-index: 10;
   position: relative;
   justify-content: space-around;
@@ -415,8 +409,7 @@ h1 {
   width: 404px;
   height: 12px;
   background-color: rgba(245, 197, 6, 0.349);
-  margin-top: 7px;
-  margin-left: -3px;
+  margin: 7px 0 0 -3px;
   border-radius: 5px;
   overflow: hidden;
   outline: none;
@@ -463,8 +456,7 @@ h1 {
  width: 404px;
  height: 12px;
  background-color: rgba(245, 197, 6, 0.349);
- margin-top: 7px;
- margin-left: -3px;
+ margin: 7px 0 0 -3px;
  border-radius: 5px;
  overflow: hidden;
  outline: none;
@@ -498,64 +490,63 @@ h1 {
   box-shadow: 0px -2px 5px 0px rgba(58, 47, 47, 0.75);
  }
 
-.wrapper-service {
+ .service ul {
   height: 212px;
   display: flex;
   list-style: none;
   margin-left: 140px;
   border-color: #d4d4d4;
 
-}
+ }
 
-.wrapper-first-item {
+.service ul li:nth-child(1) {
   width: 339px;
   border: 1px solid #d4d4d4;
+
 }
 
 .download-pic {
-  margin-top: 59px;
-  margin-left: 110px;
+  margin: 59px 0 0 110px;
 }
 
 .blat {
-  margin-top: 35px;
-  margin-left: 124px;
+  margin: 35px 0 0 124px;
+
 }
 
 .plain {
-  margin-top: 53px;
-  margin-left: 116px;
+  margin: 53px 0 0 116px;
+
 }
 
-.wrapper-second-item {
+.service ul li:nth-child(2) {
   width: 337px;
   border: 1px solid #d4d4d4;
+
 }
 
-.wrapper-third-item {
+.service ul li:nth-child(3) {
   width: 338px;
   border: 1px solid #d4d4d4;
+
 }
 
 .first-service-name, .second-service-name, .third-service-name {
-  font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
+  font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular, serif;
   font-size: 27px;
   font-weight: 300;
   color: #000000;;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 4px;
-  margin-left: 18px;
+  margin: 4px 0 0 18px;
 }
 
 .second-service-name {
-  margin-top: 8px;
-  margin-left: 23px;
+  margin: 8px 0 0 23px;
 }
 
 .third-service-name {
-  margin-top: 2px;
-  margin-left: -14px;
+  margin: 2px 0 0 -14px;
 
 }
 
@@ -574,10 +565,9 @@ h1 {
 }
 
 .wrapper-title {
-  margin-top: 32px;
-  margin-left: 141px;
-  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 37.04912px;
+  margin: 32px 0 0 141px;
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 37px;
   color: rgba(255, 255, 255, 255);
   text-align: left;
   text-transform: uppercase;
@@ -603,15 +593,14 @@ h1 {
 
 }
 .wrap-video-text {
-  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular, serif;
   letter-spacing: 0.2px;
-  font-size: 29.04912px;
+  font-size: 29px;
   color: rgba(255, 255, 255, 255);
   text-align: left;
   width: 272px;
   height: 174px;
-  margin-top: 16px;
-  margin-left: 31px;
+  margin: 16px 0 0 31px;
 
 }
 
@@ -628,8 +617,7 @@ h1 {
 .plus-first {
   width: 16px;
   height: 16px;
-  margin-top: 18px;
-  margin-left: 314px;
+  margin: 18px 0 0 314px;
 
 }
 
@@ -652,8 +640,7 @@ h1 {
   height: 61px;
   background-color: rgba(200, 170, 12, 0.8196078431372549);
   border-radius: 50%;
-  margin-top: 93px;
-  margin-left: 130px;
+  margin: 93px 0 0 130px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -680,10 +667,9 @@ h1 {
 .number {
   width: 24px;
   height: 18px;
-  margin-top: 12px;
-  margin-left: 286px;
-  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 25.04912px;
+  margin: 12px 0 0 286px;
+  font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 25px;
   color: rgba(255, 255, 255, 255);
   text-align: left;
 
@@ -692,8 +678,7 @@ h1 {
 .bird {
   width: 175px;
   height: 133px;
-  margin-top: 29px;
-  margin-left: 77px;
+  margin: 29px 0 0 77px;
 }
 
 .bird svg {
@@ -704,8 +689,7 @@ h1 {
 .plus {
   width: 16px;
   height: 16px;
-  margin-top: 16px;
-  margin-left: 308px;
+  margin: 16px 0 0 308px;
 }
 
 .wrapper-mes {
@@ -722,25 +706,23 @@ h1 {
 }
 
 .date-number {
-  font-family: SegoeUI-Bold, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 51.04912px;
+  font-family: SegoeUI-Bold, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 51px;
   color: rgba(255, 255, 255, 255);
   text-align: left;
   width: 55px;
   height: 38px;
-  margin-left: 30px;
-  margin-top: -2px;
+  margin: -2px 0 0 30px;
 }
 
 .month {
-  font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 21.04912px;
+  font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 21px;
   color: rgba(178, 101, 41, 255);
   text-align: left;
   width: 55px;
   height: 15px;
-  margin-top: 19px;
-  margin-left: 32px;
+  margin: 19px 0 0 32px;
 
 }
 
@@ -771,13 +753,11 @@ h1 {
 .video-scroller::-moz-range-track, .video-scroller::-ms-fill-lower  {
   width: 896px;
   height: 15px;
-  margin-left: 213px;
-  margin-top: 44px;
+  margin: 44px 0 22px 213px;
   background-color: #fae282cf;
   border-radius: 5px;
   overflow: hidden;
   outline: none;
-  margin-bottom: 22px;
 
 }
 
@@ -797,10 +777,9 @@ h1 {
 }
 
 .device-title {
-  margin-top: 36px;
-  margin-left: 352px;
-  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 43.04912px;
+  margin: 36px 0 0 352px;
+  font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 43px;
   color: rgba(245, 197, 6, 255);
   text-align: left;
   text-transform: uppercase;
@@ -809,8 +788,7 @@ h1 {
 
 .device-wrapper {
   display: flex;
-  margin-left: 140px;
-  margin-bottom: 109px;
+  margin: 0 0 109px 140px;
 }
 
 .discount {
@@ -819,12 +797,11 @@ h1 {
   height: 116px;
   border-radius: 50%;
   z-index: 10;
-  margin-top: 2px;
-  margin-left: -2px;
+  margin: 2px 0 0 -2px;
 }
 
 .discount p {
-  font-family: PTSans-NarrowBold, AdobeInvisFont, MyriadPro-Regular;
+  font-family: PTSans-NarrowBold, AdobeInvisFont, MyriadPro-Regular, serif;
   color: rgba(255, 255, 255, 255);
   text-align: center;
   font-size: 19px;
@@ -834,8 +811,7 @@ h1 {
 
 .device-items {
   display: flex;
-  margin-top: 44px;
-  margin-left: -93px;
+  margin: 44px 0 0 -93px;
 }
 
 .devices-pic {
@@ -854,8 +830,7 @@ h1 {
   background-image: url(./assets/images/tablet.png);
   width: 129px;
   height: 173px;
-  margin-left: 25px;
-  margin-top: 43px;
+  margin: 43px 0 0 25px;
 
 }
 
@@ -863,19 +838,18 @@ h1 {
   background-image: url(./assets/images/phone.png);
   width: 39px;
   height: 63px;
-  margin-left: 24px;
-  margin-top: 153px;
+  margin: 153px 0 0 24px;
 
 }
 
 .devices-discription {
-  margin-top: 95px;
-  margin-left: 80px;
+  margin: 95px 0 0 80px;
 }
 
-.dev-discrip-list {
+.devices-discription ul {
   list-style: none;
   width: 382px;
+
 }
 
 .list-style {
@@ -884,8 +858,9 @@ h1 {
   border-radius: 50%;
   background-color: #f5c506;
 }
-.discr-item-first, .discr-item-third {
-  font-family: PTSans-Regular, OpenSans, AdobeInvisFont, MyriadPro-Regular;
+
+.devices-discription ul li:nth-child(1), .devices-discription ul li:nth-child(3) {
+  font-family: PTSans-Regular, OpenSans, AdobeInvisFont, MyriadPro-Regular, serif;
   font-size: 22px;
   color: rgba(169, 169, 167, 255);
   text-align: left;
@@ -894,24 +869,25 @@ h1 {
 
 }
 
-.discr-item-third {
+.devices-discription ul li:nth-child(3) {
   margin-top: 30px;
+
 }
 
-.discr-item-third div {
+.devices-discription ul li:nth-child(3) div {
   margin-top: 3px;
 
 }
 
-.discr-item-forth div {
+.devices-discription ul li:nth-child(4) div {
   margin-top: 17px;
   width: 21px;
 
 }
 
-.discr-item-first p, .discr-item-third p, .discr-item-second p, .discr-item-forth p {
-  margin-left: 20px;
-  margin-top: -5px;
+
+.devices-discription ul li:nth-child(1) p, .devices-discription ul li:nth-child(3) p, .devices-discription ul li:nth-child(2) p, .devices-discription ul li:nth-child(4) p {
+  margin: -5px 0 0 20px;
   height: 42px;
 }
 
@@ -920,8 +896,8 @@ h1 {
 
 }
 
-.discr-item-second, .discr-item-forth {
-  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+.devices-discription ul li:nth-child(2), .devices-discription ul li:nth-child(4) {
+  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular, serif;
   font-size: 22px;
   color: rgba(169, 169, 167, 255);
   text-align: left;
@@ -929,7 +905,7 @@ h1 {
 
 }
 
-.discr-item-second p, .discr-item-forth p {
+.devices-discription ul li:nth-child(2) p, .devices-discription ul li:nth-child(4) p {
   margin-top: 5px;
   letter-spacing: 0.2px;
   font-weight: 400;
@@ -937,12 +913,12 @@ h1 {
 
 }
 
- .discr-item-forth p {
+.devices-discription ul li:nth-child(4) p {
      margin-top: 8px;
 
 }
 
-.discr-item-second div {
+.devices-discription ul li:nth-child(2) div {
   width: 21px;
   margin-top: 14px;
 
@@ -956,26 +932,23 @@ footer {
 }
 
 .f-logo {
-  margin-left: -56px;
-  margin-top: 3px;
+  margin: 3px 0 0 -56px;
   opacity: 0.5;
 }
 
-.wrapper-logo-footer {
-  margin-left: 137px;
+.footer-wrapper-logo {
   display: flex;
-  margin-top: 3px;
+  margin: 3px 0 0 137px;
 
 }
 
-.text-logo-footer {
-  font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 29.04912px;
+.footer-text-logo {
+  font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular, serif;
+  font-size: 29px;
   color: rgba(255, 255, 255, 255);
   text-align: center;
   text-transform: uppercase;
-  margin-left: 7px;
-  margin-top: 15px;
+  margin: 15px 0 0 7px;
 }
 
 @media (max-width:640px) {
@@ -1008,15 +981,13 @@ footer {
   .h-logo-1 {
     height: 37px;
     width: 38px;
-    margin-left: 13px;
-    margin-top: 12px;
+    margin: 12px 0 0 13px;
   }
 
   .h-logo-2 {
     height: 40px;
     width: 39px;
-    margin-left: -39px;
-    margin-top: 11px;
+    margin: 11px 0 0 -39px;
 
   }
 
@@ -1033,55 +1004,60 @@ footer {
 
   .text-logo {
     font-size: 19px;
-    margin-left: 7px;
-    margin-top: 22px;
+    margin: 22px 0 0 7px;
     letter-spacing: 0.5px;
 
   }
 
-  .menu-item {
+  .nav-menu ul li {
     height: 62px;
     font-size: 19px;
 
   }
 
-  .first svg {
+  .nav-menu ul li:first-child svg {
     margin-left: 8px;
     width: 27px;
     height: 25px;
 
   }
 
-  .first div {
+  .nav-menu ul li:first-child div {
     margin-left: 11px;
 
   }
 
-  .first::after {
+  .nav-menu ul li:first-child::after {
     height: 61px;
     margin-left: 158px;
+
   }
 
-  .second svg {
+  .nav-menu ul li:nth-child(2) svg {
     width: 25px;
     height: 26px;
     margin-right: 7px;
+
   }
 
-  .second::after {
+  .nav-menu ul li:nth-child(2)::after {
     height: 61px;
     margin-left: 127px;
+
   }
 
-  .third svg {
+
+  .nav-menu ul li:nth-child(3) svg {
     margin-right: 12px;
     width: 31px;
     height: 24px;
 
   }
 
-  .third div {
+
+  .nav-menu ul li:nth-child(3) div {
     margin-right: -2px;
+
   }
 
   .wrapper-slider {
@@ -1101,14 +1077,12 @@ footer {
   }
 
   .play-sign {
-    margin-top: -197px;
-    margin-left: 294px;
+    margin: -197px 0 0 294px;
 
   }
 
   .scroll-part {
-    margin-top: -20px;
-    margin-left: 134px;
+    margin: -20px 0 0 134px;
 
   }
 
@@ -1118,20 +1092,17 @@ footer {
   }
 
   .play-panel {
-    margin-top: 81px;
-    margin-left: 18px;
+    margin: 81px 0 0 18px;
   }
 
   .volume {
-    margin-top: 6px;
-    margin-right: 40px;
+    margin: 6px 40px 0 0;
   }
 
   .download-pic {
     width: 89px;
     height: 61px;
-    margin-top: 33px;
-    margin-left: 44px;
+    margin: 33px 0 0 44px;
 
   }
 
@@ -1154,14 +1125,12 @@ footer {
   }
 
   .first-service-name {
-    margin-top: 13px;
-    margin-left: -22px;
+    margin: 13px 0 0 -22px;
 
   }
 
   .blat {
-    margin-top: 28px;
-    margin-left: 74px;
+    margin: 28px 0 0 74px;
     width: 74px;
     height: 72px;
 
@@ -1170,13 +1139,11 @@ footer {
   .plain {
     width: 71px;
     height: 72px;
-    margin-top: 26px;
-    margin-left: 66px;
+    margin: 26px 0 0 66px;
   }
 
   .third-service-name {
-    margin-top: 9px;
-    margin-left: 5px;
+    margin: 9px 0 0 5px;
 
   }
 
@@ -1193,24 +1160,16 @@ footer {
     display: none;
   }
 
-
-  .wrapper-service {
+  .service ul {
     height: 174px;
     border: none;
     margin: 0;
 
   }
 
-  .wrapper-first-item {
+  .service ul li {
     border: none;
-  }
 
-  .wrapper-second-item {
-    border: none;
-  }
-
-  .wrapper-third-item {
-    border: none;
   }
 
   .middle-title {
@@ -1233,8 +1192,7 @@ footer {
     width: 235px;
     height: 189px;
     font-size: 29px;
-    margin-top: 13px;
-    margin-left: 27px;
+    margin: 13px 0 0 27px;
     letter-spacing: 0.2px;
     line-height: 34px;
     hyphens: manual;
@@ -1263,8 +1221,7 @@ footer {
 
   .wrapper-mes {
     display: block;
-    margin-top: 22px;
-    margin-left: 65px;
+    margin: 22px 0 0 65px;
   }
 
   .wrapper-mes ul {
@@ -1276,7 +1233,7 @@ footer {
   }
 
   .messages li p {
-    font-family: Arial, AdobeInvisFont, MyriadPro-Regular;
+    font-family: Arial, AdobeInvisFont, MyriadPro-Regular, serif;
     font-size: 13px;
     color: rgba(143, 142, 142, 255);
     text-align: left;
@@ -1289,13 +1246,11 @@ footer {
   }
 
   .mes {
-    margin-top: -39px;
-    margin-left: 28px;
+    margin: -39px 0 0 28px;
   }
 
   .author {
-    margin-left: 28px;
-    margin-top: 1px;
+    margin: 1px 0 0 28px;
   }
 
   .form {
@@ -1303,28 +1258,27 @@ footer {
   }
 
   .input {
-    margin-top: 2px;
     width: 200px;
     height: 28px;
-    margin-left: 20px;
+    margin: 2px 0 0 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 1px solid #eaa927;
     outline: none;
+    padding-left: 10px;
   }
 
   .button-submit {
-    margin-left: -6px;
+    margin: -3px 0 0 -16px;
     width: 72px;
     height: 29px;
     background-color: #e8a624;
-    font-family: Arial, AdobeInvisFont, MyriadPro-Regular;
+    font-family: Arial, AdobeInvisFont, MyriadPro-Regular, serif;
     font-size: 15px;
     color: rgba(255, 255, 255, 255);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 1px solid #eaa927;
-    margin-top: -3px;
     outline: none;
     cursor: pointer;
   }
@@ -1348,8 +1302,7 @@ footer {
   .bird svg {
     width: 166px;
     height: 159px;
-    margin-top: 27px;
-    margin-left: 1px;
+    margin: 27px 0 0 1px;
 
   }
 
@@ -1358,8 +1311,7 @@ footer {
   }
 
   .plus-first {
-    margin-left: 275px;
-    margin-top: -1px;
+    margin: -1px 0 0 275px;
 
   }
 
@@ -1370,18 +1322,15 @@ footer {
   }
 
   .device-wrapper {
-    margin-top: 31px;
-    margin-left: 30px;
+    margin: 31px 0 0 30px;
     height: 353px;
-    margin-bottom: 0;
 
   }
 
   .device-title {
-    margin-top: 29px;
-    margin-left: 19px;
+    margin: 29px 0 0 19px;
     font-size: 39px;
-    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular, serif;
     color: rgba(245, 197, 6, 255);
   }
 
@@ -1402,22 +1351,19 @@ footer {
   .f-logo-1 {
     width: 32px;
     height: 33px;
-    margin-left: -73px;
-    margin-top: 2px;
+     margin: 2px 0 0 -73px;
 
   }
 
   .f-logo {
     width: 34px;
     height: 35px;
-    margin-left: -33px;
-    margin-top: 1px;
+     margin: 1px 0 0 -33px;
 
   }
 
-  .text-logo-footer {
+  .footer-text-logo {
     font-size: 17px;
-    margin-top: 12px;
-    margin-left: -33px;
+    margin: 12px 0 0 -33px;
   }
   }
